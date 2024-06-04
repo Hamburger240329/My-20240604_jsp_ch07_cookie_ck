@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원 로그인</title>
+<title>로그인</title>
 </head>
 <body>
-<!-- 회원가입 상태 - id : tiger, pw : 12345 -->
 	<h3>회원 로그인</h3>
 	<hr>
-	<form action="loginOk.jsp">
+	<form action="loginOk.jsp" method="get">
 		아이디 : <input type="text" name="id"><br><br>
 		비밀번호 : <input type="text" name="pw"><br><br>
 		<input type="submit" value="로그인">

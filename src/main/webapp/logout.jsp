@@ -16,12 +16,12 @@
 		for(int i=0;i<cookies.length;i++){ // 쿠키를 하나씩 가져와서 삭제하기
 			//쿠키삭제방법-> 가져온 쿠키의 유효시간을 0으로 셋팅 -> 다시 클라이언트 컴퓨터에 보냄 -> 쿠키삭제
 			cookies[i].setMaxAge(0);//쿠키의 유효시간을 0으로 셋팅
-			response.addCookie(cookies[i]);//다시 클라이언트 컴퓨어테 보냄
+			response.addCookie(cookies[i]);//다시 클라이언트 컴퓨터에 보냄
 			
 		}
 		
 	%>
-	<a href="loginOk.jsp">로그인 ok 페이지로 가기</a>
+	<a href="cookieTest.jsp">쿠키 테스트</a>
 	
 </body>
 </html>
